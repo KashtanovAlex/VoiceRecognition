@@ -17,6 +17,14 @@
             {
                 components.Dispose();
             }
+            var test = 0;
+            if (test>0)
+            {
+                for (var i=0; i<test; i++)
+                {
+                    test = 0;
+                }
+            }
             base.Dispose(disposing);
         }
 
